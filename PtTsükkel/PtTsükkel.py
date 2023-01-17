@@ -1,9 +1,8 @@
 from math import * 
 from random import * 
-#Mõtle ise välja ülesanne, mis on vaja lahendada while tingimusega/while True/for kasutades. Lahenda nii while kui ka for abil.
+#0
 positive = 0
 negative = 0
-a=1
 while True:
     a=int(input("Sisestage number: "))
     if a>0: positive +=a
@@ -11,7 +10,65 @@ while True:
     else:break
 print("Positiivne:", positive, "Negatiivne:", negative)
 
-#22
+
+
+
+#Ülesanne 9 Pisike korrutustabel
+n=int(input("Sisestage number n: "))
+for i in range(1,11):
+    print(f' {n} * {i} = {n*i} ')
+print()
+
+#archi
+n=int(input("Дай позитивное число: "))
+while True:
+    print(n, end=" ")
+    n -= 1
+    if n<0:
+        break
+
+#p
+#o=int(input("Sisesta arv: "))
+#if o==r:
+#    print(f"Sa arvasid et sul läks {n} katset."):
+#    break
+#elif r>o:
+#    print("Väga väike")
+#elif o>r:
+#    print("Väga suur")
+#    n=n+1
+
+
+#michael
+#while True:
+#    print("Tere tulemast!")
+#    try:
+#        print("Latte, 2.50 euro.")
+#        print("Espresso, 2 euro.")
+#        print("Cappuccino, 3 euro.")
+#        print("Kakao, 2.20 euro.")
+#        s=float(input("Sisestage summa: ")) # 3.0
+#        if s<2 or s>3: break
+#        m=input("Valige makseviia: ")
+#        if m.lower()=="sularaha":
+#            print("anna raha")
+#        hind=float(input("Vali hind"))
+#        if summa==hind:
+#            print("Täname ostu eest")
+#        if m.lower()=="kaardiga":
+#            n=int(input("Sisestage kaardi number: "))
+#            print(n,"selle kaardiga on tehtud makse")
+#        elif summa>hind:
+#            print(f"Tagasiraha: {hind-s}")
+#    except:
+#        print("")
+
+
+
+
+
+
+#22 artem
 print("Ma tahan kommi")
 katsed = 0
 answer=""
@@ -36,27 +93,28 @@ while True:
 print("Kasted",p)
 
 #nikita ülesane 11
-print("Arvuti mõistatab numbrit 1-10 ja sina üritad seda ära arvata.")
-a=randint(1,10)
-vastus=int(input("mis arv on mõistatanud arvutit?:"))
-k=p=1
-while vastus!=a:
-    print("Ära sa ei arvanud ära, proovi uuesti: ")
-    vastus=int(input("Sisesta vastus: "))
-    k+=1
-    p+=1
-    if k>2:
-        print("Püüdlused on lõppenud")
-        b=input("Kas proovi veel kord: ")
-        if b.upper()=="JÄH":
-            k=0
-            continue
-        else:
-            break
-if vastus==a:
-    print("Palju õnne, sa arvasid ära!",p )
+#print("Arvuti mõistatab numbrit 1-10 ja sina üritad seda ära arvata.")
+#a=randint(1,10)
+#vastus=int(input("mis arv on mõistatanud arvutit?:"))
+#k=p=1
+#while vastus!=a:
+#    print("Ära sa ei arvanud ära, proovi uuesti: ")
+#    vastus=int(input("Sisesta vastus: "))
+#    k+=1
+#    p+=1
+#    if k>2:
+#        print("Püüdlused on lõppenud")
+#        b=input("Kas proovi veel kord: ")
+#        if b.upper()=="JÄH":
+#            k=0
+#            continue
+#        else:
+#            break
+#if vastus==a:
+#    print("Palju õnne, sa arvasid ära!",p )
+#
+#print()
 
-print()
 
 #Ёлка
 #for i in range(1,5):
@@ -101,10 +159,14 @@ print()
 
 #Ülesanne 9 Pisike korrutustabel
 
-n=int(input("Sisestage number n: " ))
+num=int("5")
+n=int(input("Sisestage number n: "))
 for i in range(1,11):
     print(f' {5} * {i} = {n*i} ')
 print()
+
+
+
 
 #=5
 #while True:
